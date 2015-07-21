@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/shae.css" />
+
+	</head>
+
+	<body style="background: black;">
+
+		<div class="target">
+			<ul class="menu" style="right: 0;position: absolute;width: 150px;background: black;color: #fff;">
+				<li>w</li>
+				<li>x</li>
+				<li>h</li>
+				<li>n</li>
+				<li>a</li>
+			</ul>
+			<div class="page" style="position: relative;background: black;">
+				<div style="background:blue;height: 50px;position: fixed;z-index: 199;width:100%">
+					<button id="menuBtn" style="float: right;float: right;margin-top: 15px;margin-right: 12px;border: 0;">
+						按钮
+					</button>
+				</div>
+				<div id=fontall style="position: relative;z-index: 99;background: brown;height: 1240px;">
+					
+
+				</div>
+				
+
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/jquery.menuBar.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$(".target").menuBar();
+			});
+		</script>
+	</body>
+
+</html>
